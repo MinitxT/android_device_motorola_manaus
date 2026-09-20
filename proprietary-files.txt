@@ -1,6 +1,7 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
 ## are from moto edge 40 neo (manaus_g_sys-user 15 V1TMS35H.3-45-3-2-7 0688a3-c2841).
 ## variant: RETAIL
+
 # Audio
 vendor/etc/AudioLog_dynamic.xml
 vendor/etc/ap_gain.bin
@@ -578,6 +579,9 @@ vendor/lib64/com.motorola.hardware.display.panel@1.1.so
 vendor/lib64/hw/fingerprint.goodix.default.so
 vendor/lib64/libRbsFlow.so
 vendor/lib64/libgf_hal.so
+
+# Display
+vendor/lib64/android.frameworks.displayservice@1.0.so
 
 # Display (configs)
 vendor/etc/cust_color_0.xml
