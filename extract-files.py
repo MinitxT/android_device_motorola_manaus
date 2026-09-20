@@ -25,7 +25,6 @@ namespace_imports = [
     'vendor/motorola/mt6879-common',
     'device/motorola/manaus',
     'hardware/mediatek',
-    'hardware/motorola',
 ]
 
 def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
