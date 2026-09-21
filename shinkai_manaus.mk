@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/manaus/device.mk)
 
 # Inherit some common lineageOS stuff.
-$(call inherit-product, vendor/shinkai/config/common_full_phone.mk)
+$(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
@@ -23,6 +23,12 @@ PRODUCT_BRAND := motorola
 PRODUCT_MODEL := motorola edge 40 neo
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
+
+#shinkai SHIT!-->
+SHINKAI_MAINTAINER := ur MinitxT
+TARGET_ENABLE_BLUR := true
+WITH_GMS := true
+TARGET_HAS_UDFPS := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=manaus \
