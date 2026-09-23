@@ -11,12 +11,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/motorola/manaus/device.mk)
 
-# Inherit some common lineageOS stuff.
-$(call inherit-product, vendor/custom/config/common_full_phone.mk)
+# Inherit some common YAAP stuff.
+$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := shinkai_manaus
+PRODUCT_NAME := yaap_manaus
 PRODUCT_DEVICE := manaus
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_BRAND := motorola
@@ -24,8 +24,8 @@ PRODUCT_MODEL := motorola edge 40 neo
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
-#shinkai SHIT!-->
-SHINKAI_MAINTAINER := MinitxT
+#YAAP SHIT!-->
+YAAP_MAINTAINER := MinitxT
 TARGET_ENABLE_BLUR := true
 WITH_GMS := true
 TARGET_HAS_UDFPS := true
