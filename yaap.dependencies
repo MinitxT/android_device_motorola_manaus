@@ -1,0 +1,30 @@
+[
+  {
+    "repository": "android_device_motorola_mt6879-common",
+    "target_path": "device/motorola/mt6879-common"
+  },
+  {
+    "repository": "proprietary_vendor_motorola_manaus",
+    "target_path": "vendor/motorola/manaus"
+  },
+  {
+    "repository": "android_kernel_motorola_mt6879",
+    "target_path": "kernel/motorola/mt6879"
+  },
+  {
+    "repository": "proprietary_vendor_motorola_mt6879-common",
+    "target_path": "vendor/motorola/mt6879-common"
+  },
+  {
+    "repository": "device_mediatek_sepolicy_vndr",
+    "target_path": "device/mediatek/sepolicy_vndr"
+  },
+  {
+    "repository": "hardware_mediatek",
+    "target_path": "hardware/mediatek"
+  },
+  {
+    "repository": "hardware_motorola",
+    "target_path": "hardware/Motorola"
+  }
+]
