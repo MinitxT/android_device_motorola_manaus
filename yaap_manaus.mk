@@ -15,6 +15,10 @@ $(call inherit-product, device/motorola/manaus/device.mk)
 $(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
+YAAP_MAINTAINER := MinitxT
+TARGET_ENABLE_BLUR := true
+WITH_GMS := true
+TARGET_HAS_UDFPS := true
 
 PRODUCT_NAME := yaap_manaus
 PRODUCT_DEVICE := manaus
@@ -23,12 +27,6 @@ PRODUCT_BRAND := motorola
 PRODUCT_MODEL := motorola edge 40 neo
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
-
-#YAAP SHIT!-->
-YAAP_MAINTAINER := MinitxT
-TARGET_ENABLE_BLUR := true
-WITH_GMS := true
-TARGET_HAS_UDFPS := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=manaus \
