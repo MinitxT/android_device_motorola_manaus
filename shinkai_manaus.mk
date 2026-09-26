@@ -16,7 +16,7 @@ $(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := shinkai_manaus
+PRODUCT_NAME := custom_manaus
 PRODUCT_DEVICE := manaus
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_BRAND := motorola
@@ -24,8 +24,8 @@ PRODUCT_MODEL := motorola edge 40 neo
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
-#shinkai SHIT!-->
-SHINKAI_MAINTAINER := MinitxT
+#custom SHIT!-->
+custom_MAINTAINER := MinitxT
 TARGET_ENABLE_BLUR := true
 WITH_GMS := true
 TARGET_HAS_UDFPS := true
