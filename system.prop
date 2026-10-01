@@ -1,0 +1,6 @@
+# Product Defintions
+ro.product.marketname=Motorola Edge 40 neo
+ro.infinity.soc=Dimensity 7030
+ro.infinity.battery=5000 mAh
+ro.infinity.display=1080 x 2400, P-OLED
+ro.infinity.camera=50MP + 13MP & 32MP
