@@ -74,8 +74,7 @@ PRODUCT_PACKAGES += \
     FrameworkOverlayManaus \
     RegulatoryOverlayXT2307-1 \
     RegulatoryOverlayXT2307-2 \
-    RegulatoryOverlayXT2307-3 \
-    InfinityUpdater
+    RegulatoryOverlayXT2307-3 
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
